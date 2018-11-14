@@ -1,0 +1,8 @@
+---
+# This playbook deploys a CouchDB for Openwhisk.  
+
+- hosts: db
+  tasks:
+  - include_role:
+      name: couchdb
+    when: install_couchdb

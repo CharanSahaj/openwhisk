@@ -1,0 +1,7 @@
+[db_creds]
+db_provider=CouchDB
+db_username=admin
+db_password=Le@rnC0uch
+db_protocol=http
+db_host=10.10.1.12
+db_port=5984
